@@ -16,3 +16,5 @@ BAUD_RATE = int(config["serial"]["baud_rate"])
 # --- MQTT 설정 ---
 BROKER_ADDRESS = config["mqtt"]["broker_address"]
 BROKER_PORT = int(config["mqtt"]["broker_port"])
+# MQTT 토픽 정의
+MQTT_ORDER_TOPIC = "order/topic"
